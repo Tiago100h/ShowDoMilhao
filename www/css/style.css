@@ -1,0 +1,98 @@
+/* Empty. Add your own CSS if you like */
+
+body, .scroll-content {
+    background-image: url('../img/bg.jpg');
+    background-size: 100%;
+}
+
+.item {
+    background: none;
+    border: none;
+}
+
+.item-content {
+    background: none !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    color: white !important;
+}
+
+.descricao {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pontuacao {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 0 30px black;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.item-text-wrap {
+    padding: 5px;
+}
+
+.item-text-wrap h2 {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.radio-icon {
+    color: white;
+}
+
+.card-control {
+    position: fixed;
+    /* float: left; Para funcionar o width: 100% em alguns casos */
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    background-color: white !important;
+}
+
+.card-dicas {
+    margin-bottom: 120px;
+}
+
+.button-balanced, .button-ligth {
+    border-radius: 10px;
+}
+
+.bar.bar-stable {
+    background-color: darkturquoise;
+    /* color: white;  ver isso depois */
+}
+
+.logo {
+    width: 150px;                                                                                                                                                                                                                                                                                                                                                                                                           
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 10px;
+    z-index: 4;
+    background-image: url('../img/logo.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

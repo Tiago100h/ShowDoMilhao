@@ -1,0 +1,82 @@
+<ion-view view-title="Playlist">
+  <ion-content>
+
+    <div class="descricao">
+      Sua Pontuação <br>
+      (Até 999 Pontos)
+    </div>
+
+    <div class="pontuacao">
+      999
+    </div>
+
+    <div class="card">
+      <div class="item item-text-wrap">
+        <h2>Qual seleção não vai pra copa da Rússia de 2018?</h2>
+        <ion-list>
+          <ion-radio ng-model="x" ng-value="'A'">Brasil</ion-radio>
+          <ion-radio ng-model="x" ng-value="'B'">Alemanha</ion-radio>
+          <ion-radio ng-model="x" ng-value="'C'">Italia</ion-radio>
+          <ion-radio ng-model="x" ng-value="'D'">Costa Rica</ion-radio>
+        </ion-list>
+      </div>
+    </div>
+
+    <div class="card card-dicas">
+      <div class="item item-text-wrap">
+
+        <div class="row">
+          <div class="col">
+            <button class="button button-full button-ligth ion-help">
+              Dica
+            </button>
+          </div>
+
+          <div class="col">
+            <button class="button button-full button-ligth ion-close-round">
+              Eliminar
+            </button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <button class="button button-full button-ligth ion-skip-forward">
+              Pular
+            </button>
+          </div>
+
+          <div class="col">
+            <button class="button button-full button-ligth ion-plus-circled">
+              Dobrar
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </ion-content>
+
+  <div class="card card-control">
+    <div class="item item-text-wrap">
+      <div class="row">
+        <div class="col">
+          <button class="button button-full button-ligth icon ion-arrow-left-a">
+          </button>
+        </div>
+
+        <div class="col">
+          <button class="button button-full button-balanced icon ion-checkmark-circled">
+          </button>
+        </div>
+
+        <div class="col">
+          <button class="button button-full button-ligth icon ion-arrow-right-a">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</ion-view>

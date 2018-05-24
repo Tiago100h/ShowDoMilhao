@@ -53,23 +53,4 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-})
-
-.controller('JogarCtrl', function($scope, $stateParams) {
-
-  $scope.alternativas = [
-    { resposta: 'Raul Gil', id: 1 },
-    { resposta: 'Bolinha', id: 2 },
-    { resposta: 'Flavio Cavalcanti', id: 3 },
-    { resposta: 'Chacrinha', id: 4 }
-  ];
-
-  $scope.onTap = function(id) {
-    if (id == 4) {
-      document.getElementById(id).classList.add('button-balanced');
-    } else {
-      document.getElementById(id).classList.add('button-assertive');
-    }
-  };
-
 });

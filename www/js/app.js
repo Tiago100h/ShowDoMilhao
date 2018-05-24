@@ -68,16 +68,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'PlaylistCtrl'
       }
     }
-  })
-  
-  .state('app.jogar', {
-    url: '/jogar',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/jogar.html',
-        controller: 'JogarCtrl'
-      }
-    }
   });
 
   // if none of the above states are matched, use this as the fallback

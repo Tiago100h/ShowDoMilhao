@@ -1,8 +1,6 @@
-/* Empty. Add your own CSS if you like */
-
 .scroll-content {
     background-image: url('../img/bg.jpg');
-    background-size: 100%;
+    background-size: cover;
 }
 
 .item {
@@ -11,7 +9,7 @@
 }
 
 .item-content {
-    background: rgba(255, 0, 0, 0.4) !important;
+    background: rgba(97, 97, 0, 0.4) !important;
     margin: 5px;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.2) !important;
@@ -28,20 +26,21 @@
 
 .pontuacao {
     background-color: white;
-    color: black;
+    color: balck;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     width: 88px;
     height: 88px;
-    padding-top: 30px;
-    margin: 0 auto;
+    line-height: 88px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    box-shadow: 0 0 30px black;
+    margin: 0 auto;
+    z-index: 4;
 }
 
 .card {
-    background: rgba(255, 0, 0, 0.2);
+    background: rgba(112, 112, 0, 0.2);
 }
 
 .item-text-wrap {
@@ -61,18 +60,8 @@
     color: white;
 }
 
-.card-control {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
-    background: rgb(0, 2, 32);
-    box-shadow: 0 0px 10px 5px rgb(0, 2, 32);
-    text-align: center;
-}
-
 .card-dicas {
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 
 .card-control button {
@@ -83,9 +72,8 @@
     border-radius: 10px;
 }
 
-.bar.bar-stable {
-    background: rgb(0, 2, 32);
-    box-shadow: 0 0px 10px 5px rgb(0, 2, 32);
+.bar.bar-stable, .bar.bar-footer.bar-dark {
+    background: #0e2f7f;
 }
 .header-item, .ion-navicon {
     color: white !important; 
@@ -97,10 +85,9 @@
     position: fixed;
     top: 0;
     right: 10px;
-    z-index: 4;
+    z-index: 5;
     background-image: url('../img/logo.png');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    display: none;
 }

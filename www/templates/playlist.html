@@ -5,8 +5,7 @@
       Sua Pontuação <br>
       (Até 999 Pontos)
     </div>
-
-    <div class="pontuacao">
+    <div class="pontuacao wayra">
       999
     </div>
 
@@ -14,10 +13,10 @@
       <div class="item item-text-wrap">
         <h2>Qual seleção não vai pra copa da Rússia de 2018?</h2>
         <ion-list>
-          <ion-radio ng-model="x" ng-value="'A'">Brasil</ion-radio>
-          <ion-radio ng-model="x" ng-value="'B'">Alemanha</ion-radio>
-          <ion-radio ng-model="x" ng-value="'C'">Italia</ion-radio>
-          <ion-radio ng-model="x" ng-value="'D'">Costa Rica</ion-radio>
+          <ion-radio ng-change="change()" ng-model="x" ng-value="'A'">Brasil</ion-radio>
+          <ion-radio ng-change="change()" ng-model="x" ng-value="'B'">Alemanha</ion-radio>
+          <ion-radio ng-change="change()" ng-model="x" ng-value="'C'">Italia</ion-radio>
+          <ion-radio ng-change="change()" ng-model="x" ng-value="'D'">Costa Rica</ion-radio>
         </ion-list>
       </div>
     </div>
@@ -27,13 +26,13 @@
 
         <div class="row">
           <div class="col">
-            <button class="button button-full button-ligth ion-help">
+            <button class="button button-full button-ligth icon ion-information">
               Dica
             </button>
           </div>
 
           <div class="col">
-            <button class="button button-full button-ligth ion-close-round">
+            <button class="button button-full button-ligth icon ion-close-round">
               Eliminar
             </button>
           </div>
@@ -41,13 +40,13 @@
 
         <div class="row">
           <div class="col">
-            <button class="button button-full button-ligth ion-skip-forward">
+            <button class="button button-full button-ligth icon ion-forward">
               Pular
             </button>
           </div>
 
           <div class="col">
-            <button class="button button-full button-ligth ion-plus-circled">
+            <button class="button button-full button-ligth icon ion-plus-round">
               Dobrar
             </button>
           </div>
@@ -58,24 +57,11 @@
 
   </ion-content>
 
-  <div class="card card-control">
-    <div class="item item-text-wrap">
-      <div class="row">
-        <div class="col">
-          <button class="button button-ligth icon ion-arrow-left-a">
-          </button>
-        </div>
-
-        <div class="col">
-          <button class="button button-balanced icon ion-checkmark-circled">
-          </button>
-        </div>
-
-        <div class="col">
-          <button class="button button-ligth icon ion-arrow-right-a">
-          </button>
-        </div>
-      </div>
+  <div class="bar bar-footer bar-dark">
+    <div class="button-bar">
+      <button class="button button-clear icon ion-android-arrow-back"></button>
+      <button class="button button-clear icon ion-checkmark-round"></button>
+      <button class="button button-clear icon ion-android-arrow-forward"></button>
     </div>
   </div>
 

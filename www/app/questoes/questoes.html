@@ -1,0 +1,108 @@
+<ion-view view-title="{{ vm.questionario.titulo }}">
+    <ion-content>
+        <div class="descricao">
+            Sua Pontuação
+            <br />(Até {{ vm.questionario.pontuacaoTotal }} Pontos)
+        </div>
+
+        <div class="pontuacao"> 0 </div>
+
+        <div class="card">
+            <div class="item item-text-wrap">
+                <h2> {{ vm.questaoCorrente.codigo }}) {{ vm.questaoCorrente.questao }} </h2>
+                <ion-list>
+                    <ion-radio ng-repeat="op in vm.questaoCorrente.opcoes track by $index"
+                     ng-model="x" ng-value="op.letra"> {{ op.letra }}) {{ op.descricao }} </ion-radio>
+                </ion-list>
+            </div>
+        </div>
+
+        <div class="row info">
+            <div class="col txt-verde">
+                <p>Acertou?<br /><b>+25</b></p>
+            </div>
+            <div class="col txt-vermelho">
+                <p>Errou?<br /><b>-50</b></p>
+            </div>
+        </div>
+
+        <div class="card-info">
+            <div class="item item-text-wrap balanced-bg" style="color:white">
+                <i class="icon ion-checkmark-circled"></i> Você acertou!
+            </div>
+            <div class="item item-text-wrap assertive-bg" style="color:white">
+                <i class="icon ion-close-circled"></i> Você errou!
+            </div>
+            <div class="item item-text-wrap energized-bg" style="color:white">
+                <i class="icon ion-shuffle"></i> Você pulou!
+            </div>
+        </div>
+
+        <div class="card-info">
+            <div class="item item-text-wrap royal-bg" style="color:white">
+                <i class="icon ion-alert"></i> DICA: Vai brasil
+            </div>
+        </div>
+
+        <div class="card card-dicas">
+            <div class="item item-text-wrap">
+                <div class="row">
+                    <div class="col">
+                        <button class="button button-full button-stable ion-help">
+                            Dica
+                        </button>
+                    </div>
+
+                    <div class="col">
+                        <button class="button button-full button-stable ion-close-round">
+                            Eliminar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <button class="button button-full button-stable ion-log-out">
+                            Pular
+                        </button>
+                    </div>
+
+                    <div class="col">
+                        <button class="button button-full button-stable ion-plus-circled">
+                            Dobrar
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </ion-content>
+
+    <div class="card card-control">
+        <div class="item item-text-wrap">
+            <div class="row">
+
+                <div class="col">
+                    <button class="button button-full button-light icon ion-arrow-left-a">
+                    </button>
+                </div>
+
+                <div class="col">
+                    <button class="button button-full button-balanced icon ion-checkmark-circled">
+                    </button>
+                </div>
+
+                <div class="col">
+                    <button class="button button-full button-balanced">Finalizar</button>
+                </div>
+
+                <div class="col">
+                    <button class="button button-full button-light icon ion-arrow-right-a">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</ion-view>

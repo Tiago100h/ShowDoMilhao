@@ -1,0 +1,22 @@
+[
+	{
+		"codigo" : 1,
+		"titulo" : "Copa do Mundo de 1994",
+		"pontuacaoTotal" : 250,
+		"dicaAcionada" : false,
+		"eliminarAcionado" : false,
+		"pularAcionado" : false,
+		"desafioAcionado" : false,
+		"tempo" : 300
+	},
+	{
+		"codigo" : 2,
+		"titulo" : "Copa do Mundo 2014",
+		"pontuacaoTotal" : 250,
+		"dicaAcionada" : false,
+		"eliminarAcionado" : false,
+		"pularAcionado" : false,
+		"desafioAcionado" : false,
+		"tempo" : 900
+	}
+]

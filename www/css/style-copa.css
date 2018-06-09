@@ -1,0 +1,124 @@
+/* Empty. Add your own CSS if you like */
+body, .scroll-content {
+    background-image: url('../img/bg-futebol.jpg');
+    background-size: 100%;
+}
+.item {
+    background: none;
+    border: none;
+}
+.item-content {
+    background: none !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.descricao {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pontuacao {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    width: 88px;
+    height: 88px;
+    margin: 0px auto;
+
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+.item-text-wrap {
+    padding: 5px;
+}
+.item-text-wrap h2 {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.radio-icon {
+    color: rgba(255, 255, 255, 1);
+}
+
+.card-control {
+    position: fixed; /*posicao fixa */
+    float: left;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+.card-dicas {
+    margin-bottom: 100px;
+}
+
+.button-balanced, .button-stable {
+    border-radius: 15px;
+}
+
+
+
+.bar-stable {
+    background-color:rgb(110, 0, 0) !important;
+}
+.bar-stable * {
+    color: #FFF !important;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    z-index: 1000;
+    background-image: url('../img/logo-fifa.png');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.info {
+    width: 70%;
+    margin: 0px auto;
+    background-color: #FFF;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt-vermelho {
+	color: red;
+}
+.txt-verde {
+	color: green;
+}
+
+.card-info > .item {
+    background-color: rgba(0,0,0,0.6) !important;
+    text-align: center;
+    font-weight: bold;
+    margin: 5%;
+    border-radius: 6px;
+    padding: 20px;
+    letter-spacing: 2px;
+
+}

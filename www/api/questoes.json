@@ -1,0 +1,342 @@
+[
+	{
+		"codigo" : 1,
+		"codigoQuestionario" : 1,
+		"questao" : "Em que dia ocorreu a final da Copa do Mundo de 1994?",
+		"pontuacao" : 25,
+		"resposta" : "D",
+		"dica" : "(20-3) é o numero da sorte!",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "16/07/1994"},
+			{ "letra" : "B", "descricao" : "22/07/1994"},
+			{ "letra" : "C", "descricao" : "15/07/1994"},
+			{ "letra" : "D", "descricao" : "17/07/1994"},
+			{ "letra" : "E", "descricao" : "20/07/1994"}
+		]
+    },
+	{
+		"codigo" : 2,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual jogador fez o primeiro gol do Brasil naquela copa?",
+		"pontuacao" : 25,
+		"resposta" : "A",
+		"dica" : "Hoje é senador do Rio de Janeiro.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Romário"},
+			{ "letra" : "B", "descricao" : "Branco"},
+			{ "letra" : "C", "descricao" : "Dunga"},
+			{ "letra" : "D", "descricao" : "Bebeto"},
+			{ "letra" : "E", "descricao" : "Raí"}
+		]
+    },
+	{
+		"codigo" : 3,
+		"codigoQuestionario" : 1,
+		"questao" : "Quais são os países que formaram o grupo A na Copa de 1994?",
+		"pontuacao" : 25,
+		"resposta" : "C",
+		"dica" : "Em Roma Servem Colônia",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Estados Unidos, Suécia, Suíça e Colômbia"},
+			{ "letra" : "B", "descricao" : "Estados Unidos, Suécia, Equador e Bulgária"},
+			{ "letra" : "C", "descricao" : "Estados Unidos, Romênia, Suíça e Colômbia"},
+			{ "letra" : "D", "descricao" : "Estados Unidos, Suécia, Romênia e Colômbia"},
+			{ "letra" : "E", "descricao" : "Estados Unidos, Bulgária, Equador e Suíça"}
+		]
+    },
+    {
+		"codigo" : 4,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual foi a maior goleada daquela copa?",
+		"pontuacao" : 25,
+		"resposta" : "D",
+		"dica" : "Em Moscou, janta-se frutos do mar. ",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Rússia 7 x 0 Camarões"},
+			{ "letra" : "B", "descricao" : "Alemanha 6 x 0 Arábia Saudita"},
+			{ "letra" : "C", "descricao" : "Romênia 6 x 1 Marrocos"},
+			{ "letra" : "D", "descricao" : "Rússia 6 x 1 Camarões"},
+			{ "letra" : "E", "descricao" : "Argentina 6 x 0 Grécia"}
+		]
+    },
+    {
+		"codigo" : 5,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual país ficou em quinto lugar na copa de 1994?",
+		"pontuacao" : 25,
+		"resposta" : "C",
+		"dica" : "Quinto aqui, mas sete no Brasil",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Bulgária"},
+			{ "letra" : "B", "descricao" : "Suécia"},
+			{ "letra" : "C", "descricao" : "Alemanha"},
+			{ "letra" : "D", "descricao" : "Argentina"},
+			{ "letra" : "E", "descricao" : "Romênia"}
+		]
+    },
+    {
+		"codigo" : 6,
+		"codigoQuestionario" : 1,
+		"questao" : "Quais foram os jogadores do Brasil que bateram os pênaltis na final da copa de 1994?",
+		"pontuacao" : 25,
+		"resposta" : "B",
+		"dica" : "Um anão claro faz romaria para os santos",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Romário, Dunga, Márcio Santos e Raí"},
+			{ "letra" : "B", "descricao" : "Dunga, Branco, Romário e Márcio Santos"},
+			{ "letra" : "C", "descricao" : "Cafu, Romário, Márcio Santos e Dunga"},
+			{ "letra" : "D", "descricao" : "Jorginho, Romário, Branco e Raí"},
+			{ "letra" : "E", "descricao" : "Romário, Mazinho, Raí e Branco"}
+		]
+    },
+    {
+		"codigo" : 7,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual país teve a melhor defesa da copa, tomando apenas 1 gol?",
+		"pontuacao" : 25,
+		"resposta" : "E",
+		"dica" : "Nó na cueca",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Alemanha"},
+			{ "letra" : "B", "descricao" : "Argentina"},
+			{ "letra" : "C", "descricao" : "Romênia"},
+			{ "letra" : "D", "descricao" : "Suécia"},
+			{ "letra" : "E", "descricao" : "Noruega"}
+		]
+    },
+    {
+		"codigo" : 8,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual foi o país-sede da copa de 1994?",
+		"pontuacao" : 25,
+		"resposta" : "A",
+		"dica" : "Trump trampa em sampa",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Estados Unidos"},
+			{ "letra" : "B", "descricao" : "México"},
+			{ "letra" : "C", "descricao" : "Romênia"},
+			{ "letra" : "D", "descricao" : "Itália"},
+			{ "letra" : "E", "descricao" : "Argentina"}
+		]
+    },
+    {
+		"codigo" : 9,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual dos países abaixo não se classificou para a copa do mundo de 1994?",
+		"pontuacao" : 25,
+		"resposta" : "B",
+		"dica" : "Torre bacana e perfumes caros, mas banho que é bom nada.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Estados Unidos"},
+			{ "letra" : "B", "descricao" : "França"},
+			{ "letra" : "C", "descricao" : "Bulgária"},
+			{ "letra" : "D", "descricao" : "Bélgica"},
+			{ "letra" : "E", "descricao" : "Arábia Saudita"}
+		]
+    },
+    {
+		"codigo" : 10,
+		"codigoQuestionario" : 1,
+		"questao" : "Que jogador levantou a taça da copa de 1994?",
+		"pontuacao" : 25,
+		"resposta" : "A",
+		"dica" : "Treinador da seleção de 2006 a 2010",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Dunga"},
+			{ "letra" : "B", "descricao" : "Romário"},
+			{ "letra" : "C", "descricao" : "Raí"},
+			{ "letra" : "D", "descricao" : "Márcio Santos"},
+			{ "letra" : "E", "descricao" : "Bebeto"}
+		]
+    },
+    {
+		"codigo" : 1,
+		"codigoQuestionario" : 2,
+		"questao" : "Qual o nome da bola que foi utilizada na Copa do Mundo FIFA de 2014?",
+		"pontuacao" : 25,
+		"resposta" : "E",
+		"dica" : "HJAK#BRA#OQUL#ZU#QWER#CA",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Bazuca"},
+			{ "letra" : "B", "descricao" : "Braleka"},
+			{ "letra" : "C", "descricao" : "Bossa Nova"},
+			{ "letra" : "D", "descricao" : "Carnavalesca"},
+			{ "letra" : "E", "descricao" : "Brazuca"}
+		]
+    },
+    {
+		"codigo" : 2,
+		"codigoQuestionario" : 2,
+		"questao" : "Qual jogador marcou o primeiro gol da Copa do Mundo 2014?",
+		"pontuacao" : 25,
+		"resposta" : "D",
+		"dica" : "É brasileiro e não tem junior e nem prêmio de cinema",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Neymar, Seleção Brasileira."},
+			{ "letra" : "B", "descricao" : "Modric, Seleção Croata."},
+			{ "letra" : "C", "descricao" : "Oscar, Seleção Brasileira."},
+			{ "letra" : "D", "descricao" : "Marcelo, Seleção Brasileira."},
+			{ "letra" : "E", "descricao" : "Van Persie, Seleção Holandesa."}
+		]
+    },
+    {
+		"codigo" : 3,
+		"codigoQuestionario" : 2,
+		"questao" : "Qual foi o primeiro gol de falta da Copa do Mundo 2014?",
+		"pontuacao" : 25,
+		"resposta" : "A",
+		"dica" : "Paraíso fiscal contra torre de wafles",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Dzemaili da Suíça, contra a França."},
+			{ "letra" : "B", "descricao" : "David Luiz do Brasil, contra a Colômbia."},
+			{ "letra" : "C", "descricao" : "David Luiz do Brasil, contra o Chile."},
+			{ "letra" : "D", "descricao" : "Messi da Argentina, contra a Nigéria."},
+			{ "letra" : "E", "descricao" : "Dzemaili da Suíça contra o Equador."}
+		]
+    },
+    {
+		"codigo" : 4,
+		"codigoQuestionario" : 2,
+		"questao" : "Quais seleções tiveram o primeiro empate com nenhum gol no placar na Copa?",
+		"pontuacao" : 25,
+		"resposta" : "E",
+		"dica" : "Terra do uranio e a terra da guerra civil eterna",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Brasil e México."},
+			{ "letra" : "B", "descricao" : "Japão e Grécia."},
+			{ "letra" : "C", "descricao" : "Rússia e Coréia do Sul."},
+			{ "letra" : "D", "descricao" : "Costa Rica e Inglaterra."},
+			{ "letra" : "E", "descricao" : "Irã e Nigéria."}
+		]
+    },
+    {
+		"codigo" : 5,
+		"codigoQuestionario" : 2,
+		"questao" : "Quem foi o maior artilheiro da Copa?",
+		"pontuacao" : 25,
+		"resposta" : "C",
+		"dica" : "É da terra de Pablo Escobar",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Neymar Jr, Brasil"},
+			{ "letra" : "B", "descricao" : "Lionel Messi, Argentina"},
+			{ "letra" : "C", "descricao" : "James Rodríguez, Colômbia"},
+			{ "letra" : "D", "descricao" : "Arjen Robben, Holanda"},
+			{ "letra" : "E", "descricao" : "Thomas Mueller, Alemanha"}
+		]
+    },
+    {
+		"codigo" : 6,
+		"codigoQuestionario" : 2,
+		"questao" : "Qual cidade foi palco da abertura da Copa do Mundo FIFA de 2014?",
+		"pontuacao" : 25,
+		"resposta" : "B",
+		"dica" : "Terra da garoa e do assalto a mão armada.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Rio de Janeiro"},
+			{ "letra" : "B", "descricao" : "São Paulo"},
+			{ "letra" : "C", "descricao" : "Brasilia"},
+			{ "letra" : "D", "descricao" : "Salvador"},
+			{ "letra" : "E", "descricao" : "Porto Alegre"}
+		]
+    },
+    {
+		"codigo" : 7,
+		"codigoQuestionario" : 2,
+		"questao" : "Qual o nome do mascote da Copa do Mundo FIFA de 2014?",
+		"pontuacao" : 25,
+		"resposta" : "D",
+		"dica" : "FUturo LEva COnhecimento",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Fuleiro"},
+			{ "letra" : "B", "descricao" : "Peteleko"},
+			{ "letra" : "C", "descricao" : "Fulano"},
+			{ "letra" : "D", "descricao" : "Fuleco"},
+			{ "letra" : "E", "descricao" : "Estoleke"}
+		]
+    },
+    {
+		"codigo" : 8,
+		"codigoQuestionario" : 2,
+		"questao" : "Qual foi a primeira seleção a ser eliminada da copa?",
+		"pontuacao" : 25,
+		"resposta" : "A",
+		"dica" : "Eles 'panha' tudo quando querem.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Espanha"},
+			{ "letra" : "B", "descricao" : "Itália"},
+			{ "letra" : "C", "descricao" : "Alemanha"},
+			{ "letra" : "D", "descricao" : "Chile"},
+			{ "letra" : "E", "descricao" : "Costa Rica"}
+		]
+    },
+    {
+		"codigo" : 9,
+		"codigoQuestionario" : 2,
+		"questao" : "Qual foi a primeira goleada da Copa?",
+		"pontuacao" : 25,
+		"resposta" : "D",
+		"dica" : "Não é a que você está pensando",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Brasil vs Alemanha"},
+			{ "letra" : "B", "descricao" : "Camarões vs Croácia"},
+			{ "letra" : "C", "descricao" : "Alemanha vs Portugal"},
+			{ "letra" : "D", "descricao" : "Espanha vs Holanda"},
+			{ "letra" : "E", "descricao" : "Suiça vs França"}
+		]
+    },
+    {
+		"codigo" : 10,
+		"codigoQuestionario" : 2,
+		"questao" : "Quem disputou a final da Copa?",
+		"pontuacao" : 25,
+		"resposta" : "E",
+		"dica" : "Hermanos contra os Brüder",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Brasil vs Argentina"},
+			{ "letra" : "B", "descricao" : "Alemanha vs Holanda"},
+			{ "letra" : "C", "descricao" : "Holanda vs Argentina"},
+			{ "letra" : "D", "descricao" : "Brasil vs Holanda"},
+			{ "letra" : "E", "descricao" : "Alemanha vs Argentina"}
+		]
+    }
+]

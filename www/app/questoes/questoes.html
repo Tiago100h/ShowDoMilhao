@@ -5,40 +5,39 @@
             <br />(Até {{ vm.questionario.pontuacaoTotal }} Pontos)
         </div>
 
-        <div class="pontuacao"> 0 </div>
+        <div class="pontuacao"> {{vm.pontuacaoCorrente}} </div>
 
         <div class="card">
             <div class="item item-text-wrap">
                 <h2> {{ vm.questaoCorrente.codigo }}) {{ vm.questaoCorrente.questao }} </h2>
                 <ion-list>
-                    <ion-radio ng-repeat="op in vm.questaoCorrente.opcoes track by $index"
-                     ng-model="x" ng-value="op.letra"> {{ op.letra }}) {{ op.descricao }} </ion-radio>
+                    <ion-radio ng-disabled="vm.questaoCorrente.respondida" ng-model="vm.questaoCorrente.opcaoSelecionada" ng-repeat="op in vm.questaoCorrente.opcoes track by $index" ng-value="op.letra"> {{ op.letra }}) {{ op.descricao }} </ion-radio>
                 </ion-list>
             </div>
         </div>
 
         <div class="row info">
             <div class="col txt-verde">
-                <p>Acertou?<br /><b>+25</b></p>
+                <p>Acertou?<br /><b>+{{ vm.questaoCorrente.pontuacao }}</b></p>
             </div>
             <div class="col txt-vermelho">
-                <p>Errou?<br /><b>-50</b></p>
+                <p>Errou?<br /><b>-{{ vm.questaoCorrente.pontuacao * 2 }}</b></p>
             </div>
         </div>
 
         <div class="card-info">
-            <div class="item item-text-wrap balanced-bg" style="color:white">
+            <div ng-if="vm.questaoCorrente.respondida && vm.questaoCorrente.acertou" class="item item-text-wrap balanced-bg" style="color:white">
                 <i class="icon ion-checkmark-circled"></i> Você acertou!
             </div>
-            <div class="item item-text-wrap assertive-bg" style="color:white">
+            <div ng-if="vm.questaoCorrente.respondida && !vm.questaoCorrente.acertou" class="item item-text-wrap assertive-bg" style="color:white">
                 <i class="icon ion-close-circled"></i> Você errou!
             </div>
-            <div class="item item-text-wrap energized-bg" style="color:white">
+            <div ng-if="vm.questaoCorrente.pulada" class="item item-text-wrap energized-bg" style="color:white">
                 <i class="icon ion-shuffle"></i> Você pulou!
             </div>
         </div>
 
-        <div class="card-info">
+        <div ng-if="vm.questionario.dicaAcionada" class="card-info">
             <div class="item item-text-wrap royal-bg" style="color:white">
                 <i class="icon ion-alert"></i> DICA: Vai brasil
             </div>
@@ -84,21 +83,21 @@
             <div class="row">
 
                 <div class="col">
-                    <button class="button button-full button-light icon ion-arrow-left-a">
+                    <button ng-disabled="vm.indice ==0" ng-click="vm.irParaAnterior()" class="button button-full button-light icon ion-arrow-left-a">
                     </button>
                 </div>
 
-                <div class="col">
-                    <button class="button button-full button-balanced icon ion-checkmark-circled">
+                <div class="col" ng-if="!vm.questionario.respondido">
+                    <button ng-disabled="!vm.questaoCorrente.opcaoSelecionada || vm.questaoCorrente.respondida" ng-click="vm.responder()" class="button button-full button-balanced icon ion-checkmark-circled">
                     </button>
                 </div>
 
-                <div class="col">
-                    <button class="button button-full button-balanced">Finalizar</button>
+                <div class="col" ng-if="vm.questionario.respondido">
+                    <button ng-click="vm.finalizar()" class="button button-full button-balanced">Finalizar</button>
                 </div>
 
                 <div class="col">
-                    <button class="button button-full button-light icon ion-arrow-right-a">
+                    <button ng-disabled="vm.indice + 1 == vm.quantidadeQuestoes || !vm.questaoCorrente.respondida" ng-click="vm.irParaProxima()" class="button button-full button-light icon ion-arrow-right-a">
                     </button>
                 </div>
 
